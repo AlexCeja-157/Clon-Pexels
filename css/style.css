@@ -1,0 +1,132 @@
+* {
+    /*box-sizing: border-box;*/
+    margin: 0;
+    padding: 0;
+}
+
+/* Inicio de Style*/
+
+a{
+    display: inline-block;
+}
+
+
+header {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+}
+
+header .nav-1 {
+    display: inline-block;
+    vertical-align:middle;
+    margin-left: 70%;
+}
+
+.icono, h3 {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+
+nav a {
+    font-size: 16px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+nav button {
+    font-size: 18px;
+    background-color: greenyellow
+}
+ 
+
+.bloque-inicio .container {
+    width: 550px;
+    text-align: left;
+    position: absolute;
+    top: 160px;
+    left: 500px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.busca {
+    font-size: 40px;
+    margin: 15px 0;
+}
+::placeholder {
+    font-size: medium;    
+}
+
+p {
+    font-size: 12px;
+}
+
+.img-inicio {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+.nav-2 {
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.nav-2 a {
+    font-size: 18px;
+    margin-left: 10.5px;
+    margin-right: 10.5px;
+    color: black;
+}
+
+.galeria {
+    margin: 20px 100px;
+}
+
+.opciones {
+    padding: 30px 0;
+    vertical-align: middle;
+}
+.t-galeria {
+    font-size: 20px;
+    float: left;
+}
+
+.o-galeria {
+    font-size: small;
+    border-style: none;
+    float: right;
+}
+
+.pack img {
+    width: 32%;
+    padding: 5px;
+
+}
+.pack {
+    display: block;
+    flex-wrap: wrap;
+    
+}
