@@ -11,7 +11,17 @@ a{
 }
 
 
-header {
+.header {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header2 {
     background-color: black;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -21,25 +31,63 @@ header {
     left: 0;
 }
 
+.bloque-inicio2 {
+    display: none;
+}
+
 .container {
     width: 100%;
     padding: 0 15px 0 15px;
-    margin: 0 auto;
+    margin: 10px auto;    
 }
 
 header .nav-1 {
     display: inline-block;
     vertical-align:middle;
-    margin-left: 70%;
+    margin-left: 67%;
 }
 
 .icono, h3 {
-    font-size: 20px;
+    font-size: 25px;
     display: inline-block;
     vertical-align: middle;
-    color: white;
+    color: greenyellow;
 }
 
+.header .c-buscar{
+    display: none;
+}
+
+.header2 .c-buscar {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    height: 15px;
+    border-radius: 30px;
+    position: absolute;
+    left: 150px;
+}
+
+.c-buscar-texto {
+    border: none;
+    background: white;
+    outline: none;
+    font-size: 15px;
+    float: left;
+    width: 400px;
+    line-height: 15px;
+
+}
+
+.c-buscar-boton {
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+}
 
 nav a {
     font-size: 16px;
@@ -52,6 +100,7 @@ nav a {
 }
 
 nav button {
+    width: 80px;
     font-size: 18px;
     background-color: greenyellow
 }
@@ -60,6 +109,7 @@ nav button {
 .bloque-inicio .container {
     width: 550px;
     text-align: left;
+    
     position: absolute;
     top: 160px;
     left: 500px;
@@ -67,24 +117,53 @@ nav button {
 
 h1{
     font-size: 30px;
+    padding: 10px;
+    color: green;
 }
 
-.busca {
-    font-size: 40px;
-    margin: 15px 0;
+.buscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 450px;
+    padding: 10px;
+    height: 30px;
+    border-radius: 40px;
 }
+
+.buscar-texto {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 20px;
+    float: left;
+    line-height: 60px;
+    width: 500px;
+}
+
+.buscar-boton {
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    color: green;
+    font-size: 30px;
+    
+}
+
 ::placeholder {
     font-size: medium;    
 }
 
 p {
-    font-size: 12px;
+    font-size: 15px;
+    padding: 10px;
+    color: green;
 }
 
 .img-inicio {
     width: 100%;
     height: 500px;
-    display: block;
 }
 
 .nav-2 {
@@ -120,13 +199,18 @@ p {
     float: right;
 }
 
+.pack {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 300vh;
+    width: 83vw;
+    margin: auto;
+}
+
 .pack img {
     width: 32%;
     padding: 5px;
+    align-self: flex-start;
+}
 
-}
-.pack {
-    display: block;
-    flex-wrap: wrap;
-    
-}
