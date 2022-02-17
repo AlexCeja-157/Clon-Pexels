@@ -22,7 +22,7 @@ a{
 }
 
 .header2 {
-    background-color: black;
+    background-color: gray;
     padding-top: 10px;
     padding-bottom: 10px;
     position: fixed;
@@ -118,7 +118,7 @@ nav button {
 h1{
     font-size: 30px;
     padding: 10px;
-    color: green;
+    color: black;
 }
 
 .buscar {
@@ -152,13 +152,14 @@ h1{
 }
 
 ::placeholder {
-    font-size: medium;    
+    font-size: medium;
+    color: green;    
 }
 
 p {
     font-size: 15px;
     padding: 10px;
-    color: green;
+    color: black;
 }
 
 .img-inicio {
@@ -171,6 +172,7 @@ p {
     padding: 20px;
     padding-bottom: 0px;
     text-align: center;
+    text-decoration: line-through;
 }
 
 .nav-2 a {
@@ -179,6 +181,7 @@ p {
     margin-right: 10.5px;
     color: black;
 }
+
 
 .galeria {
     margin: 20px 100px;
@@ -200,7 +203,7 @@ p {
 }
 
 .pack {
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     flex-direction: column;
     height: 300vh;
@@ -212,5 +215,10 @@ p {
     width: 32%;
     padding: 5px;
     align-self: flex-start;
+    filter: grayscale(1);
+}
+
+.pk:hover {
+    filter: grayscale(0);
 }
 

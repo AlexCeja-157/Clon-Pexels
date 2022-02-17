@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 0 ) {
+    if ($(this).scrollTop() > 120 ) {
       $("header").addClass("header2");
       $(".bloque-inicio").addClass("bloque-inicio2");
     } else {
@@ -11,13 +11,3 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function () {
-
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 0 ) {
-      $("#inicio .bloque-inicio").addClass("bloque-inicio2");
-    } else {
-      $("#inicio .bloque-inicio").removeClass("bloque-inicio2");
-    }
-  });
-});
