@@ -105,14 +105,13 @@ nav button {
     background-color: greenyellow
 }
  
-
 .bloque-inicio .container {
     width: 550px;
     text-align: left;
-    
     position: absolute;
-    top: 160px;
-    left: 500px;
+    top: 16%;
+    left: 33%;
+
 }
 
 h1{
@@ -206,7 +205,7 @@ p {
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 800vh;
+    height: 780vh;
     width: 83vw;
     margin: auto;
 }
@@ -222,3 +221,93 @@ p {
     filter: grayscale(0);
 }
 
+
+/*Tablet*/
+@media screen and (max-width: 770px){
+        
+    .c-buscar-texto {
+        border: none;
+        background: white;
+        outline: none;
+        font-size: 15px;
+        float: left;
+        width: 200px;
+        line-height: 15px;
+    
+    }
+
+    header .nav-1 {
+        display: inline-block;
+        vertical-align:middle;
+        margin-left: 35%;
+    }
+
+    .header2 .nav-1 {
+        display: inline-block;
+        vertical-align:middle;
+        margin-left: 37%;
+    }
+
+    .bloque-inicio .container {
+        display: flex;
+        flex-direction: column;
+        top: 10%;
+        left: 20%;          
+    }
+    
+    .pack {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 530vh;
+        width: 70vw;
+        margin: 0 10px 0 15px;
+        
+        
+    }
+
+    .pack img {
+        width: 48%;
+        padding: 5px;
+        align-self: flex-start;
+        filter: grayscale(1);
+    }
+    
+
+
+/* Smartphone*/
+@media screen and (max-width:501px) {
+    
+.mobile {
+    display: inline-block;
+    width: 750px;
+}
+
+.bloque-inicio .container {
+    display: flex;
+    flex-direction: column;
+    top: 15%;
+    left: 30%;          
+}
+
+.pack {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 2500vh;
+    width: 130vw;
+    margin: 0 20px;
+    align-self: auto;
+ 
+}
+
+.pack img {
+    width: 100%;
+    padding: 5px;
+    align-self: flex-start;
+    filter: grayscale(1);
+}
+
+.galeria {
+    margin: 20px 80px;
+}
