@@ -206,7 +206,7 @@ p {
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 300vh;
+    height: 800vh;
     width: 83vw;
     margin: auto;
 }
